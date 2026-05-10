@@ -1,14 +1,22 @@
-var Apple = 49
-var Ball = 84
-var Cat = 144
-var Door = 378
+var age = 19
+var item = false
+var krytost = true
+var mama = true
 
-Apple = Apple + Ball + (Cat * Door)
-
-function kaka(x){
-	x = x * 100 / 3,1415
-	return x
+if(age > 18){
+	console.log("Bzrosluy")
+}else{
+	console.log("Maloy")
+}if(item = true){
+	console.log("Bec imeesh")
+}else{
+	console.log("Beca Hety")
+}if(krytost = true){
+	console.log("Tu kryt")
+}else{
+	console.log("Tu lox")
+}if(mama = true){
+	console.log("Mama imeetsy")
+}else{
+	console.log("Mamu nety")
 }
-Apple = kaka(Apple)
-
-console.log(Apple)
