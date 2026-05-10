@@ -5,9 +5,10 @@ var Door = 378
 
 Apple = Apple + Ball + (Cat * Door)
 
-if(Apple > Ball){
-	console.log("> 50000")
-}else{
-	console.log("< 50000")
+function kaka(x){
+	x = x * 100 / 3,1415
+	return x
 }
-console.log("Yslovie sverhy, polych number cnizy"),console.log(Apple)
+Apple = kaka(Apple)
+
+console.log(Apple)
