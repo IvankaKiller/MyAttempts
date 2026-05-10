@@ -1,10 +1,12 @@
+/*КРУТАЯ ПРОВЕРКА НА КРУТОСЬ :)*/
+
 var age = 19
 var item = false
 var krytost = true
 var mama = true
 
 if(age >= 18){
-	console.log("Взрослый")
+	console.log("КРУТОЙ"/*"Взрослый"*/)
 }else{
 	console.log("Малой")
 }
